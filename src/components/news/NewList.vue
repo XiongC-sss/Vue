@@ -39,6 +39,7 @@
         data(){
             return{
                 NewList:[],
+                test: '试试回滚'
             }
         },
         created(){
