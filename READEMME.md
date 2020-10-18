@@ -33,6 +33,8 @@
   2. 然后执行变基的命令 git rebase develope
 
 ## 五、分支合并和冲突解决
+ + 切换分支
+ git checkout -b zhanghanlun origin/zhanghanlun
  + 分支合并
   1. 使用checkout命令切换到主分支 git checkout master 或者 git switch master（新版git）
   2. 使用merge命令合并分支 git merge dev
