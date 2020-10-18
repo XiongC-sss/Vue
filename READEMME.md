@@ -1,3 +1,7 @@
+##hello word
+##hello MaYun
+## 我想再次提交
+=======
 #Git学习笔记
 ## 一、git回退到某个版本：
  + 回退到指定版本（只包含提交信息）
@@ -58,3 +62,4 @@
  + 键入i将 commitA之前的pick改为drop，键入ESC退出
  + 键入:wq退出编辑
  + 使用git push origin -f推送到远程
+
