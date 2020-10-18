@@ -4,5 +4,13 @@
 
 算了试试dev-commit提取到master吧
 
-来变个基
-怎么解决变基冲突呢
+
+### sourceTree变基怎么变
+
+试试回退
+
+
+
+dev合并一下
+
+
