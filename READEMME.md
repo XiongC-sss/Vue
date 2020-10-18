@@ -15,6 +15,7 @@
      git reset --hard 指定commit的sha码
  + 强推到远程：
   - git push origin HEAD -- force
+ 
 ## 二、git暂存
  + 暂存所有 git add . 或者 git add --all
  + 暂存文件夹 git add 文件夹名
@@ -62,4 +63,5 @@
  + 键入i将 commitA之前的pick改为drop，键入ESC退出
  + 键入:wq退出编辑
  + 使用git push origin -f推送到远程
+
 
