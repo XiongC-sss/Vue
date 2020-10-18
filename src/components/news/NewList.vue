@@ -39,6 +39,7 @@
         data(){
             return{
                 NewList:[],
+                test: '试试回滚'
             }
         },
         created(){
@@ -57,5 +58,9 @@
             }
         }
     }
-    /*11111*/
+    /*11111dev*/
+<<<<<<< HEAD
+//    dev提交
+=======
+>>>>>>> 8286acff5caff35f2213193f2b809e9fe15a21e2
 </script>
