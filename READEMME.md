@@ -17,12 +17,17 @@
   - git push origin HEAD -- force
  
 ## 二、git暂存
+ + 暂存 git stash 或者 git stash save "添加备注"
+ + 取回暂存 git stash pop
+ + 下面的不对
  + 暂存所有 git add . 或者 git add --all
  + 暂存文件夹 git add 文件夹名
  + 暂存单个文件 git add 文件名
  + 暂存多个文件 git add file1 file2 file3 或者 git add file 多次提交
  + 暂存指定目录(conifg)下子及其所有文件 git conifg/*
  + 暂存指定目录(conifg)下的所有vue单组件文件 git config/*.vue
+
+ 
 ## 三、修改历史提交
  + 当发现代码漏提或者错提时，对commit但未推送到远程分支的commit message修改步骤
   1. 使用git commit --amend命令调出commit信息
@@ -38,6 +43,8 @@
   2. 然后执行变基的命令 git rebase develope
 
 ## 五、分支合并和冲突解决
+ + 切换分支
+ git checkout -b dev(本地) origin/dev(远程)
  + 分支合并
   1. 使用checkout命令切换到主分支 git checkout master 或者 git switch master（新版git）
   2. 使用merge命令合并分支 git merge dev
