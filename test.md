@@ -10,21 +10,8 @@
 试试回退
 
 
-
 dev合并一下
-
-
-
-正在master中干的活,master的活也干完了
-
-我来试试git add
-add好像不能暂存
-
-
-
-
 在dev上干完了活   
 
 
 算了试试dev-commit提取到master吧
-
