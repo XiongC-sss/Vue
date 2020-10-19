@@ -1,5 +1,9 @@
 #Git学习笔记
 ## 一、git回退到某个版本：
+ + add 之前撤销修改
+ + git checkout --\<file\>
+ + add 之后撤销修改
+  1. git reset HEAD \<file\>
  + 回退到指定版本（只包含提交信息）
   1. git reset --soft HEAD
  + 回退到指定版本（包括提交信息和代码）
@@ -36,11 +40,13 @@
  + 最简单都变基示例（将develop分支的提交应用到master分支）
   1. 先保证切换到master分支 git checkout master 或者 git switch master（新版git）
   2. 然后执行变基的命令 git rebase develope
-
+      
 ## 五、分支合并和冲突解决
  + 切换分支
- git checkout -b dev(本地) origin/dev(远程)
+ git checkout -b master dev (基于master新建的dev分支并且切换) 
  git switch -c dev (新版git)
+ git branch --set-upstream-to origin/beta beta (新建beta分支并且与远程beta分支关联)
+ 
  + 分支合并
   1. 使用checkout命令切换到主分支 git checkout master 或者 git switch master（新版git）
   2. 使用merge命令合并分支 git merge dev
