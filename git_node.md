@@ -57,7 +57,7 @@
    3. 使用git commit -m message 提交修改
    4. 使用git push 命令推送到远程
    
-  - 远程冲突
+  - 远程冲突    
    1. 先将本地代码储藏下来 git stash
    2. 将远程代码拉取下来 git pull origin master
    3. git stash pop
@@ -72,3 +72,8 @@
  + 键入i将 commitA之前的pick改为drop，键入ESC退出
  + 键入:wq退出编辑
  + 使用git push origin -f推送到远程
+ 
+ ## 八、关于git remote
+  + 列出远程仓库信息 git remote -v
+  + 添加远程仓库与本地联系 git remote add 设置名称 地址
+  + 拉取其他库到当前库的本地分支  git pull 其他库 其他库分支 --rebase （加rebase后不用marge）
